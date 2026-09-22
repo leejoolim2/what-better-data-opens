@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the book."
+title: "What Better Data Opens — companion code and data"
+type: software
+authors:
+  - family-names: Lee
+    given-names: Joolim
+license: MIT
+repository-code: "https://github.com/leejoolim2/what-better-data-opens"
+preferred-citation:
+  type: book
+  title: "What Better Data Opens: Structure, Identification, and Spatial Causality for Urban Research"
+  authors:
+    - family-names: Lee
+      given-names: Joolim
+  collection-title: "Urban Research Methods, Volume 2"
+  year: 2026
+  publisher:
+    name: "Independently published"

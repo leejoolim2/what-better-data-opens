@@ -1,0 +1,14 @@
+# Tested versions. Newer versions usually work; if a notebook's final check fails,
+# install exactly these:  pip install -r requirements.txt
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+statsmodels==0.15.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+libpysal==4.15.0
+esda==2.10.0
+spreg==1.9.1
+nbformat==5.11.1
+nbconvert==7.17.1
+ipykernel==7.3.0
