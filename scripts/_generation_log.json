@@ -1,0 +1,102 @@
+{
+  "ch01": {
+    "files": "data/ch01_identification.csv",
+    "spec": {
+      "true_ate": 3.0,
+      "n": 400
+    }
+  },
+  "ch03": {
+    "files": [
+      "data/ch03_viirs_panel_adm2.csv",
+      "data/ch03_boundary_crosswalk_tashkent.csv"
+    ],
+    "spec": {
+      "months": 72,
+      "units": 117,
+      "obs": 8532,
+      "missing_pct": 1.9,
+      "planted": "COVID dip Apr-Aug 2020 (-22% log)"
+    }
+  },
+  "ch04": {
+    "files": "data/ch04_dhs_household_nairobi.csv",
+    "spec": {
+      "n_households": 1500,
+      "n_clusters": 60,
+      "true_path_serv_to_sat": 0.42,
+      "target_icc": 0.18
+    }
+  },
+  "ch07": {
+    "files": "data/ch07_did_hanoi.csv",
+    "spec": {
+      "true_effect_log": 0.06,
+      "true_effect_pct": 6.18,
+      "n_units": 40,
+      "n_treated": 15,
+      "treatment": "2024-01"
+    }
+  },
+  "ch08": {
+    "files": "data/ch08_did_staggered.csv",
+    "spec": {
+      "dynamic": "+0.015 per month, saturating at 0.06",
+      "cohorts": "2023-01 / 2023-07 / 2024-01 / never",
+      "n_units": 60
+    }
+  },
+  "ch09": {
+    "files": "data/ch09_matching_phnompenh.csv",
+    "spec": {
+      "true_att": 5.0,
+      "n": 800
+    }
+  },
+  "ch10": {
+    "files": "data/ch10_iv_slope.csv",
+    "spec": {
+      "true_beta": 0.15,
+      "instrument": "slope_deg_srtm",
+      "endogenous": "transit_access_index",
+      "n": 800
+    }
+  },
+  "ch11": {
+    "files": "data/ch11_rdd_transfer.csv",
+    "spec": {
+      "true_jump": 120.0,
+      "cutoff": 50000,
+      "n": 900,
+      "design": "sharp"
+    }
+  },
+  "ch12": {
+    "files": "data/ch12_scm_cities.csv",
+    "spec": {
+      "treated_unit": "CITY-07",
+      "treat_year": 2015,
+      "true_effect": "+1.2 p.a. cumulative, capped at +9.0",
+      "n_donors": 29
+    }
+  },
+  "ch13": {
+    "files": "data/ch13_spatial_grid.csv",
+    "spec": {
+      "true_rho": 0.61,
+      "n_cells": 324,
+      "weights": "rook, row-standardised"
+    }
+  },
+  "ch14": {
+    "files": "data/ch14_spillover_panel.csv",
+    "spec": {
+      "true_direct": 0.06,
+      "true_spillover": 0.02,
+      "radius_km": 2.0,
+      "n_cells": 144,
+      "n_treated": 3,
+      "n_ring": 36
+    }
+  }
+}
